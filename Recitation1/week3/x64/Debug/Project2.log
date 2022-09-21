@@ -1,0 +1,4 @@
+﻿  volume.c
+C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\Recitation1\Project2\volume.c(17,10): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 2 has type 'float *'
+C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\Recitation1\Project2\volume.c(21,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+  Project2.vcxproj -> C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\Recitation1\Project2\x64\Debug\Project2.exe
