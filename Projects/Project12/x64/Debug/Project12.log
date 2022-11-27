@@ -1,0 +1,3 @@
+﻿  state_abbrev.c
+C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\Projects\Project12\state_abbrev.c(96,2): warning C4013: 'gets' undefined; assuming extern returning int
+  Project12.vcxproj -> C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\Projects\Project12\x64\Debug\Project12.exe

@@ -1,0 +1,8 @@
+maxmin.exe : maxmin.o my_funcs.o
+	gcc -o maxmin.exe maxmin.o my_funcs.o
+
+maxmin.o : maxmin.c my_funcs.h
+	gcc -c maxmin.c
+	
+my_funcs.o : my_funcs.c my_funcs.h
+	gcc -c my_funcs.c
