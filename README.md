@@ -1,2 +1,2 @@
-# ECE-1400
+# The Programming Language C
 My journey learning C
