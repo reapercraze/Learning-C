@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\in_class\scratch\test.c(55,2): warning C4013: 'free' undefined; assuming extern returning int
+  scratch.vcxproj -> C:\Users\Owner\OneDrive\Documents\Github Repositories\ECE-1400\in_class\scratch\x64\Debug\scratch.exe

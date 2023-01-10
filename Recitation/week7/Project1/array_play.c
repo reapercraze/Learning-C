@@ -1,24 +1,34 @@
-#include <stdio.h>
+#include<stdio.h>
+#include <stdlib.h>
+int main(){
 
-#define N 5
-int main()
-{
-	int a[5] = {0};
-	int sum = 0, prod = 1, i = 0;
+/* Single Dimention */
 
-	for (i = 0; i < N; i++)
-	{
-		printf("Enter integer %d: ", i + 1);
-		scanf_s("%d", &a[i]);
-	}
+int *sdimen,i;
+sdimen = malloc ( 10 * sizeof (int));
+/* Access elements like single diminution. */
+sdimen[0] = 10;
+sdimen[1] = 20;
 
-	for (i = 0; i < N; i++)
-	{
-		sum += a[i];
-		prod *= a[i];
-	}
+printf ("\n.. %d... %d ", sdimen[0], sdimen[1]);
 
-	printf("Sum = %d \nProduct = %d", sum, prod);
+/* Two dimention ie: **Array of pointers.**  */
 
-	return 0;
+int **twodimen;
+
+twodimen = malloc ( sizeof ( int *) * 10);
+
+for (i=0; i<10; i++) {
+  twodimen[i] = malloc (sizeof(int) * 5);
+
+}
+
+/* Access array of pointers */
+
+twodimen[0][0] = 10;
+twodimen[0][3] = 30;
+twodimen[2][3] = 50;
+
+printf ("\n %d ... %d.... %d ", twodimen[0][0], twodimen[0][3], twodimen[2][3]);
+return 0;
 }
